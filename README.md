@@ -1,4 +1,4 @@
-# PROJECT WEB APP - NKS ( Nusantara Kita Sejahtera ) - by Kazuya Media Indonesia.
+# PROJECT WEB APP - NKS ( Nusantara Kita Sejahtera )
 
 ~ Go Develop & Target ~  
 Start : 17 Februari 2023
