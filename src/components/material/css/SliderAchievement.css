@@ -1,0 +1,13 @@
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(sm) {
+    .custom-class {
+        display: block;
+    }
+
+    .dark-bg {
+        background-size: 120% !important;
+    }
+}

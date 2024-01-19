@@ -1,0 +1,18 @@
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+}
+
+.size{
+    font-size: 10px;
+}
+
+.line{
+    line-height: 1.2;
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}

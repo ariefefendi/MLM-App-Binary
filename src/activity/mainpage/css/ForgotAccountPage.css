@@ -1,0 +1,55 @@
+/* media query option */
+
+/* button next and previous for small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col-10 {
+    flex: 0 0 auto;
+    width: 83.33333%;
+  }
+}
+
+/* button next and previous for Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* button next and previous for ipad devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 45.66667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+/* button next and previous for Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+}
+
+form-floating .form-control {
+    border-color: var(--fimobile-theme-bordercolor);
+    border-radius: var(--fimobile-input-rounded);
+    padding: var(--fimobile-padding) var(--fimobile-padding) var(--fimobile-padding) var(--fimobile-padding);
+    line-height: 32px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+
+  .form-floating .form-control{
+    height: 66px;
+}
+
+  /* page-1 */

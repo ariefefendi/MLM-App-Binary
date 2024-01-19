@@ -1,0 +1,80 @@
+/* media query option */
+
+/* button next and previous for small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col-10 {
+    flex: 0 0 auto;
+    width: 83.33333%;
+  }
+}
+
+/* button next and previous for Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* button next and previous for ipad devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 45.66667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+/* button next and previous for Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+}
+
+.logo-color {
+  color: #092c9f;
+}
+
+.text-center-forget-password {
+  font-size: 14px;
+  margin-top: 6px;
+  color: #4064ac;
+}
+
+.register-button {
+  font-size: 15px;
+  margin-top: 152px;
+  color: #4064ac;
+}
+
+.btn.btn-sm,
+.btn-group-sm > .btn {
+  height: 50px !important;
+  width: 75px;
+  font-size: 16px;
+  margin-top: 7px;
+  background-color: #3056d3;
+  border-radius: calc(var(--fimobile-rounded) - 6px);
+  font-size: 16px;
+}
+
+.form-floating .form-control {
+  border-color: var(--fimobile-theme-bordercolor);
+  border-radius: var(--fimobile-input-rounded);
+  padding: var(--fimobile-padding) var(--fimobile-padding)
+    var(--fimobile-padding) var(--fimobile-padding);
+  line-height: 24px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 5px rgba(158, 59, 59, 0.05);
+}
+.form-floating .form-control {
+  height: 66px;
+}

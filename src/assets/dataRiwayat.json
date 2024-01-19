@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "nama": "nama1",
+        "status": "ok"
+    },
+    {
+        "id": "2",
+        "nama": "nama2",
+        "status": "ok"
+    },
+    {
+        "id": "3",
+        "nama": "nama3",
+        "status": "ok"
+    },
+    {
+        "id": "4",
+        "nama": "nama4",
+        "status": "ok"
+    }
+]

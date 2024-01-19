@@ -1,0 +1,42 @@
+/* .title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+} */
+
+.rounded-10-start {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.rounded-11 {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.avatar.avatar-40 {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    margin-left: -3px;
+}
+
+.avatar.avatar-41 {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: -3px;
+}
+
+.connectionwiper .swiper-wrapper .swiper-slide {
+    width: auto;
+    padding: 0 0px 0px 0px;
+}
+
+.connectionwiper .swiper-wrapper .swiper-slide:first-child {
+    padding-left: 0px !important;
+    margin-left: 4px !important;
+}
+
+.connectionwiper .swiper-wrapper .swiper-slide:last-child {
+    padding-right: 0px !important;
+    margin-right: 10px !important;
+}

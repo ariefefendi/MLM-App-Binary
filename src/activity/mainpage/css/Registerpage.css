@@ -1,0 +1,131 @@
+/* media query option */
+
+/* under 320 width */
+@media only screen and (max-width: 320px) {
+  .previous{
+    margin-right: 0% !important;
+  }
+
+  .next{
+    margin-top: 10px !important;
+  }
+}
+
+/* button next and previous for small devices (phones, 600px and down) */
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+  .clearfix {
+    clear: both;
+    width: 100%;
+    display: flex;
+    margin: 0;
+  }  
+
+  .previous{
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+/* button next and previous for Small devices (portrait tablets and large phones, 600px and up) */
+  .clearfix {
+    clear: both;
+    width: 100%;
+    display: flex;
+    margin: 0;
+  }
+
+  .previous{
+    margin-right: 10px !important;
+  }
+}
+
+/* button next and previous for ipad devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width:912px){
+  .clearfix {
+    clear: both;
+    width: 76.3%;
+    display: flex;
+    margin: 0;
+  }
+
+  .previous{
+    margin-right: 10px !important;
+  }
+}
+
+/* button next and previous for Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .clearfix {
+    clear: both;
+    width: 76.6%;
+    display: flex;
+    margin: 0;
+  }
+
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .previous{
+    margin-right: 10px !important;
+  }
+}
+
+
+/* PAGE 1 */
+
+/* tombol next bawah */
+.btn-text-right {
+  text-align: right !important;
+}
+
+.btn {
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  border-radius: calc(var(--fimobile-rounded) - 5px);
+  position: relative;
+}
+
+/* form input */
+.form-control {
+  border-color: var(--fimobile-theme-bordercolor);
+  border-radius: 15px;
+}
+
+.form-floating .form-control:focus,
+.form-floating .form-control:not(:placeholder-shown) {
+  padding-top: 24px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+/* logo nks */
+.logo-text-center {
+  text-align: center !important;
+}
+
+.form-floating .form-control {
+  border-color: var(--fimobile-theme-bordercolor);
+  border-radius: var(--fimobile-input-rounded);
+  padding: var(--fimobile-padding) var(--fimobile-padding) var(--fimobile-padding) var(--fimobile-padding);
+  line-height: 32px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* page 2 */
+.mr-4{
+  margin-right: 10px;
+}
+
+.form-floating .form-control{
+  height: 66px;
+}
+
+.label{
+  text-align: left !important;
+}
+
+
